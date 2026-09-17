@@ -1,0 +1,2 @@
+# Optional exact text tokenizer; core projects require only Python 3.10+ standard library.
+tiktoken>=0.7,<1

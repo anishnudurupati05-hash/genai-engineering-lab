@@ -1,0 +1,6 @@
+[
+ {"id":"guide-01","title":"CivicTrack demo: issue lifecycle","text":"CivicTrack is a learning prototype. Reports begin in Reported status, move to In progress after review, and become Resolved when work is verified. The demo uses sample data and does not contact government agencies."},
+ {"id":"guide-02","title":"CivicTrack demo: report details","text":"A useful streetlight report includes the street name, nearest intersection, pole identifier if visible, and a short description of the problem. Do not include personal contact details in public issue descriptions."},
+ {"id":"guide-03","title":"CivicTrack demo: duplicate handling","text":"Before creating an issue, review existing reports for the same location and category. The CivicFlow local outbox deduplicates identical report text using a normalized hash. It does not identify semantic duplicates."},
+ {"id":"guide-04","title":"CivicTrack demo: accessibility","text":"Accessibility reports can describe blocked wheelchair ramps, damaged curb cuts, or inaccessible pedestrian crossings. Include the location and the observed barrier. Category suggestions always require human review."}
+]
